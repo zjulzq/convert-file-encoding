@@ -29,6 +29,7 @@ public class Convert {
 			String line = reader.readLine();
 			while (line != null) {
 				writer.write(line);
+				writer.newLine();
 				line = reader.readLine();
 			}
 		}
